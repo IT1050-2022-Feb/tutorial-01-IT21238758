@@ -17,11 +17,14 @@ int main()
   printf("Enter mark 2 :");
   scanf("%d",&mark2);
   
+  //Calculation for the average
   total=mark1 + mark2 ;
   average =total/2;
 
-  printf("average is %.2f", average);
+  // Print average
+  printf("The average is %.2f", average);
 
+  //End of the process
   return 0;
 }
 
